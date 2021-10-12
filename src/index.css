@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  /* background-color: rgb(217, 242, 252);
+
+ */
+}
+.login-section{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: min-content;
+  padding: 5rem 0;
+  cursor: progress;
+}
+
+.form-field{
+  padding: 0.5rem 0;
+}
+
+.form-error-text{
+  color: red;
+  padding-bottom: 0.5rem;
+}
+.forgotpassword-section{
+  
+  cursor: pointer;
+  position: absolute;
+  background-color: white;
+  height: 100%;
+}
+
+/* .input-list{
+  font-weight: bold;
+  color:blue;
+  box-sizing: border-box;
+  padding: 10px;
+} */
+
+input:checked + label {
+  color:red;
+  text-decoration: line-through;
+}
+/* .btn {
+ 
+  border: red;
+  color:red;
+  font-size: normal;
+  cursor: pointer;
+  border-radius: 40%;
+  padding: 8px;
+}
+
+.input-todo{
+  padding: 10px;
+  color:darkgreen;
+  font-weight:600; */
+
+
+
+  
+/* } */
+/* .my-todo{
+  padding: 10px;
+  font-style:oblique;
+  color:blue;
+  height: 5px;
+  font-weight:900;
+  
+  
+} */
